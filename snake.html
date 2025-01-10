@@ -11,8 +11,17 @@
 
     </header>
     <main>
-        <div class="logo"></div>
-        <div id="display"></div>
+        <div class="logo">SNAKE</div>
+        <div id="display">
+            <div class="gameSizeContainer">
+                <div class="gameSizeBtn" id="smallSizeBtn" onclick="changeSize('small')">Small</div>
+                <div class="gameSizeBtn" id="mediumSizeBtn" onclick="changeSize('medium')">Medium</div>
+                <div class="gameSizeBtn" id="largeSizeBtn" onclick="changeSize('large')">Large</div>
+                <div class="gameSizeBtn" id="customSizeBtn" onclick="changeSize('custom')">Custom</div>
+            </div>
+            
+        </div>
     </main>
+<script src="snake.js"></script>
 </body>
 </html>
